@@ -52,9 +52,9 @@ const Dashboard = () => {
       <AppHeader />
       {selectedCards.length > 0 && (
         <div style={{ marginBottom: "18px" }}>
-          <Row gutter={[16, 16]} justify="center">
+          <Row gutter={[16, 16]} justify="center" style={{backgroundColor:'white'}}>
             {selectedCards.map((card, idx) => (
-              <Col key={idx} xs={24} sm={12} md={8} lg={6}>
+              <Col key={idx} xs={24} sm={12} md={8} lg={6} style={{backgroundColor:'white'}}>
                 <Card
                   title={card.title}
                   style={{
