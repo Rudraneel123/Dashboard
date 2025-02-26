@@ -52,9 +52,20 @@ const Dashboard = () => {
       <AppHeader />
       {selectedCards.length > 0 && (
         <div style={{ marginBottom: "18px" }}>
-          <Row gutter={[16, 16]} justify="center" style={{backgroundColor:'white'}}>
+          <Row
+            gutter={[16, 16]}
+            justify="center"
+            style={{ backgroundColor: "white" }}
+          >
             {selectedCards.map((card, idx) => (
-              <Col key={idx} xs={24} sm={12} md={8} lg={6} style={{backgroundColor:'white'}}>
+              <Col
+                key={idx}
+                xs={24}
+                sm={12}
+                md={8}
+                lg={6}
+                style={{ backgroundColor: "white" }}
+              >
                 <Card
                   title={card.title}
                   style={{
@@ -88,17 +99,26 @@ const Dashboard = () => {
           </Row>
         </div>
       )}
-      <Table
-        columns={columns}
-        dataSource={dataentry}
-        pagination={{ position: ["bottomCenter"], defaultPageSize: 2 }}
-        rowKey="id"
-        onRow={(record) => ({
-          onClick: () => handleShowCards(record),
-          style: { cursor: "pointer" },
-        })}
-        // scroll={{ x: "max-content" }}
-      />
+      <div
+        style={{
+          maxWidth: "100%",
+          overflowX: "auto",
+          height: "300px", // Adjust height as needed
+          overflowY: "auto",
+        }}
+      >
+        <Table
+          columns={columns}
+          dataSource={dataentry}
+          pagination={{ position: ["bottomCenter"], defaultPageSize: 2 }}
+          rowKey="id"
+          onRow={(record) => ({
+            onClick: () => handleShowCards(record),
+            style: { cursor: "pointer" },
+          })}
+          scroll={{ x: "max-content" }}
+        />
+      </div>
       <AppFooter />
     </div>
   );
