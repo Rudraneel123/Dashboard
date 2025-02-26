@@ -1,0 +1,16 @@
+.header-ortho {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: aqua;
+}
+.title-ortho{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.items-ortho{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+}

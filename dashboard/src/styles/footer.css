@@ -1,0 +1,8 @@
+.footer-ortho{
+    background: #8c63ec;
+}
+.footeritems-ortho{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
