@@ -1,0 +1,20 @@
+{
+  "socials": [
+    {
+      "name": "Facebook",
+      "icon": "fa-facebook"
+    },
+    {
+      "name": "LinekdIn",
+      "icon": "fa-linkedin"
+    },
+    {
+      "name": "Instagram",
+      "icon": "fa-instagram"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "fa-whatsapp"
+    }
+  ]
+}
