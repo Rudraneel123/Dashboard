@@ -47,7 +47,7 @@ const Dashboard = () => {
   const borderColors = ["purple", "brown", "orange"];
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px" ,overflowX: "hidden"}}>
       {/* {console.log("Rendering Cards:", selectedCards)} */}
       <AppHeader />
       {selectedCards.length > 0 && (
@@ -99,7 +99,7 @@ const Dashboard = () => {
           </Row>
         </div>
       )}
-         <div style={{ overflowX: "auto", width: "100%" }}>
+         <div style={{ overflowX: "auto", width: "100%",whiteSpace: "nowrap", }}>
 
         <Table
           columns={columns}
