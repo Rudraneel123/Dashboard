@@ -61,7 +61,7 @@ const Dashboard = () => {
                     border: "1px solidrgb(58, 13, 13)",
                     borderRadius: "8px",
                     boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.1)",
-                    backgroundColor: "transparent",
+                    backgroundColor: "white",
                     borderBottomWidth: "10px",
                     borderBottomColor: borderColors[idx % borderColors.length],
                     //idx is the current index in the map loop,
