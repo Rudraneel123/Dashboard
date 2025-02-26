@@ -99,14 +99,7 @@ const Dashboard = () => {
           </Row>
         </div>
       )}
-      <div
-        style={{
-          maxWidth: "100%",
-          overflowX: "auto",
-          height: "300px", // Adjust height as needed
-          overflowY: "auto",
-        }}
-      >
+      <div>
         <Table
           columns={columns}
           dataSource={dataentry}
