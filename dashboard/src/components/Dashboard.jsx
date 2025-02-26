@@ -99,6 +99,8 @@ const Dashboard = () => {
           </Row>
         </div>
       )}
+         <div style={{ overflowX: "auto", width: "100%" }}>
+
         <Table
           columns={columns}
           dataSource={dataentry}
@@ -108,9 +110,10 @@ const Dashboard = () => {
             onClick: () => handleShowCards(record),
             style: { cursor: "pointer" },
           })}
-          scroll={{ x: "max-content",scrollToFirstRowOnChange:true }}
+          scroll={{ x: "max-content" }}
           // scroll={{x:"true"}}
         />
+        </div>
       <AppFooter />
     </div>
   );
