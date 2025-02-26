@@ -99,7 +99,6 @@ const Dashboard = () => {
           </Row>
         </div>
       )}
-      <div>
         <Table
           columns={columns}
           dataSource={dataentry}
@@ -112,7 +111,6 @@ const Dashboard = () => {
           scroll={{ x: "max-content",scrollToFirstRowOnChange:true }}
           // scroll={{x:"true"}}
         />
-      </div>
       <AppFooter />
     </div>
   );
