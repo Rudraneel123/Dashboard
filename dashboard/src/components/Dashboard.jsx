@@ -116,7 +116,7 @@ const Dashboard = () => {
             onClick: () => handleShowCards(record),
             style: { cursor: "pointer" },
           })}
-          scroll={{ x: "max-content" }}
+          scroll={{ x: "max-content",scrollToFirstRowOnChange:true }}
         />
       </div>
       <AppFooter />
