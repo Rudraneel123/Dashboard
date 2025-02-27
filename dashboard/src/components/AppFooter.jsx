@@ -1,29 +1,3 @@
-//         {/* Social Media Icons */}
-//         <Menu theme="dark" mode="horizontal" style={{ background: "transparent", borderBottom: "none" }}>
-//         <Menu.Item key="facebook">
-//           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-//             <FacebookOutlined style={{ fontSize: "20px", color: "white" }} />
-//           </a>
-//         </Menu.Item>
-//         <Menu.Item key="linkedin">
-//           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-//             <LinkedinOutlined style={{ fontSize: "20px", color: "white" }} />
-//           </a>
-//         </Menu.Item>
-//         <Menu.Item key="instagram">
-//           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-//             <InstagramOutlined style={{ fontSize: "20px", color: "white" }} />
-//           </a>
-//         </Menu.Item>
-//         <Menu.Item key="whatsapp">
-//           <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer">
-//             <WhatsAppOutlined style={{ fontSize: "20px", color: "white" }} />
-//           </a>
-//         </Menu.Item>
-//       </Menu>
-
-// import { FacebookOutlined, LinkedinOutlined, InstagramOutlined, WhatsAppOutlined } from "@ant-design/icons";
-
 import { useEffect, useState } from "react";
 import { Layout } from "antd";
 import "@fortawesome/fontawesome-free/css/all.min.css"; // Import FontAwesome

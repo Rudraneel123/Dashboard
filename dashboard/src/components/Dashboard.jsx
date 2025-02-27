@@ -3,11 +3,30 @@ import { useEffect, useState } from "react";
 import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
 // import 'antd/dist/antd.min.css';
+import { useTranslation } from "react-i18next";
+import { useSearchParams } from "react-router-dom";
 
 const Dashboard = () => {
   const [dataentry, setDataentry] = useState([]);
   const [columns, setColumns] = useState([]);
   const [selectedCards, setSelectedCards] = useState([]); // Store selected row cards
+  const { t, i18n } = useTranslation();
+  const [searchParams] = useSearchParams();
+
+  const handleShowCards = (record) => {
+    console.log("Row clicked:", record); // Debugging log
+
+    if (record.cards && Array.isArray(record.cards)) {
+      //Array.isArray check the cards is an array or not
+
+      setSelectedCards(record.cards.slice(0, 3));
+      console.log("Setting selected cards:", record.cards); // Debugging log
+    } else {
+      console.log("No cards found for this row");
+
+      selectedCards([]);
+    }
+  };
 
   useEffect(() => {
     // Fetch the config.json file from the public folder
@@ -29,25 +48,17 @@ const Dashboard = () => {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
-  const handleShowCards = (record) => {
-    console.log("Row clicked:", record); // Debugging log
-
-    if (record.cards && Array.isArray(record.cards)) {
-      //Array.isArray check the cards is an array or not
-
-      setSelectedCards(record.cards.slice(0, 3));
-      console.log("Setting selected cards:", record.cards); // Debugging log
-    } else {
-      console.log("No cards found for this row");
-
-      selectedCards([]);
+  useEffect(() => {
+    const culture = searchParams.get("culture");
+    if (culture) {
+      i18n.changeLanguage(culture);
     }
-  };
+  }, [searchParams, i18n]);
 
   const borderColors = ["purple", "brown", "orange"];
 
   return (
-    <div style={{ padding: "20px" ,overflowX: "hidden"}}>
+    <div style={{ /*padding: "20px",*/ overflowX: "hidden",width:"100vw"}}>
       {/* {console.log("Rendering Cards:", selectedCards)} */}
       <AppHeader />
       {selectedCards.length > 0 && (
@@ -74,6 +85,7 @@ const Dashboard = () => {
                     boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.1)",
                     backgroundColor: "white",
                     borderBottomWidth: "10px",
+                    marginTop:"12px",
                     borderBottomColor: borderColors[idx % borderColors.length],
                     //idx is the current index in the map loop,
                     //idx % borderColors.length  calculates which color to pick from the array.
@@ -86,6 +98,7 @@ const Dashboard = () => {
                         {/* <strong>{detail.label}:</strong>
                         {detail.value} */}
                         <strong>
+                          {/* {detail.label[i18n.language]} */}
                           {detail.label}
                           {detail.value ? ":" : ""}
                         </strong>

@@ -1,8 +1,11 @@
-.footer-ortho{
-    background: #8c63ec;
+.footer-ortho {
+  background: #8c63ec;
+  width: 100vw;
+  height: 10.999vw;
+  overflow-x: hidden;
 }
-.footeritems-ortho{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.footeritems-ortho {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
