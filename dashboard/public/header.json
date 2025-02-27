@@ -1,9 +1,39 @@
 {
   "categories": [
-    "Consumers",
-    "Labortary Professionals",
-    "Healtcare Providers",
-    "Products",
-    "Resources"
+    {
+      "en": "Consumers",
+      "es": "Consumidores",
+      "fr": "Consommateurs",
+      "pt": "Consumidores",
+      "de": "Verbraucher"
+    },
+    {
+      "en": "Laboratory Professionals",
+      "es": "Profesionales de laboratorio",
+      "fr": "Professionnels de laboratoire",
+      "pt": "Profissionais de laboratório",
+      "de": "Laborfachkräfte"
+    },
+    {
+      "en": "Healthcare Providers",
+      "es": "Proveedores de atención médica",
+      "fr": "Fournisseurs de soins de santé",
+      "pt": "Prestadores de cuidados de saúde",
+      "de": "Anbieter von Gesundheitsversorgung"
+    },
+    {
+      "en": "Products",
+      "es": "Productos",
+      "fr": "Produits",
+      "pt": "Produtos",
+      "de": "Produkte"
+    },
+    {
+      "en": "Resources",
+      "es": "Recursos",
+      "fr": "Ressources",
+      "pt": "Recursos",
+      "de": "Ressourcen"
+    }
   ]
 }
