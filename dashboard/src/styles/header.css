@@ -11,6 +11,8 @@
     color: black;
     font-size: 20px;
     font-weight: bolder;
+    display: flex; /* Add flexbox to title-ortho */
+    align-items: center;
 }
 .items-ortho{
     margin-left: auto;

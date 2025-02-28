@@ -23,7 +23,7 @@ const LangDdown = () => {
 
   const menuItems = languages.map((lang) => ({
     key: lang.key,
-    label: <img src={lang.flag} alt={lang.label} style={{ width: '20px', marginRight: '8px' }} />,
+    label: <img src={lang.flag} alt={lang.label} style={{ width: '20px' ,marginLeft:'8px'}} />,
   }));
 //   const menuItems = languages.map((lang) => ({
 //     key: lang.key,
@@ -44,7 +44,7 @@ const LangDdown = () => {
       <img
         src={languages.find((lang) => lang.key === i18n.language)?.flag || enFlag} // Display current language flag
         alt="Language"
-        style={{ width: '24px', cursor: 'pointer' }} // Adjust width as needed
+        style={{ width: '24px', cursor: 'pointer',marginLeft:'20px' }} // Adjust width as needed
       />
     </Dropdown>
   );
