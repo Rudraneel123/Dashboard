@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 // import { t } from "i18next";
 import { useTranslation } from "react-i18next";
 import { useSearchParams } from "react-router-dom";
+import LangDdown from "./LangDdown";
 
 const { Header } = Layout;
 
@@ -31,6 +32,7 @@ const AppHeader = () => {
       <Header className="header-ortho">
         {/* Logo */}
         <div className="title-ortho">{t('title')}</div>
+          <LangDdown/>
         <div className="items-ortho">
           {categories?.map((category, idx) => (
             <span key={idx}>{category[i18n.language]}</span>
