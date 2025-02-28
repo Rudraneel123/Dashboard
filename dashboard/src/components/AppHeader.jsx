@@ -30,9 +30,9 @@ const AppHeader = () => {
   return (
     <Layout style={{height:"100%"}}>
       <Header className="header-ortho">
+          <LangDdown/>
         {/* Logo */}
         <div className="title-ortho">{t('title')}</div>
-          <LangDdown/>
         <div className="items-ortho">
           {categories?.map((category, idx) => (
             <span key={idx}>{category[i18n.language]}</span>

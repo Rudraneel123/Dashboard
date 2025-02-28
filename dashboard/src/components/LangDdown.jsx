@@ -38,9 +38,14 @@ const LangDdown = () => {
       }}
       placement="bottomRight"
     >
-      <span className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
+      {/* <span className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
         {languages.find((lang) => lang.key === i18n.language)?.label || 'Language'}
-      </span>
+      </span> */}
+      <img
+        src={languages.find((lang) => lang.key === i18n.language)?.flag || enFlag} // Display current language flag
+        alt="Language"
+        style={{ width: '24px', cursor: 'pointer' }} // Adjust width as needed
+      />
     </Dropdown>
   );
 };
