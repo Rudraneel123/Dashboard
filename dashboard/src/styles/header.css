@@ -1,55 +1,57 @@
 .header-ortho {
-   display: flex;
-   /* justify-content: space-between; */
-   align-items: center;
-   background-color: aqua;
-   width: 100vw;
-   padding: 0px;
-   /* height: 12vw; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: aqua;
+  width: 100vw;
+  padding: 0px;
+  /* height: 12vw; */
 }
-.title-ortho{
-    color: black;
-    font-size: 20px;
-    font-weight: bolder;
-    display: flex; /* Add flexbox to title-ortho */
-    align-items: center;
+.title-ortho {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex; /* Add flexbox to title-ortho */
+  align-items: center;
 }
-.items-ortho{
-    margin-left: auto;
-    display: flex;
-    gap: 20px;
+.items-ortho {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
 }
 
 /* for mobile */
 .items-ortho {
-    margin-left: auto;
-    display: flex;
-    gap: 20px;
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
 }
 
-@media (max-width :768px) {
-    .header-ortho{
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
-    .items-ortho {
-        margin: 0;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap:10px;
-        margin-top: 10px;
-        /* background-color: rgba(0, 0, 0, 0.1); */
-        padding: 5px;
-        overflow: visible !important;
+@media (max-width: 768px) {
+  .header-ortho {
+    flex-direction: row; /* Keep elements in a row */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: flex-start; /* Align to the top */
+    padding: 10px;
 
+    .items-ortho {
+      margin-left: 0;
+      flex-direction: row;
+      flex-wrap: wrap; /* Allow wrapping */
+      gap: 10px;
+      margin-top: -24px;
+      /* Removed display: block; */
     }
-    .title-ortho{
-        font-size: 18px;
+
+    .title-ortho {
+      font-size: 18px;
+      display: none;
     }
+
     .items-ortho span {
-        font-size: 18px;
-        white-space: nowrap;
-        overflow: visible !important;
+      font-size: 6px; /* Increased font size */
+      margin: 5px; /* Added margin */
+      display: inline-block; /* Added display inline-block */
     }
+  }
 }

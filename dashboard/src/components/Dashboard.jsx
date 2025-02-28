@@ -58,7 +58,7 @@ const Dashboard = () => {
   const borderColors = ["purple", "brown", "orange"];
 
   return (
-    <div style={{ /*padding: "20px",*/ overflowX: "hidden",width:"100vw"}}>
+    <div style={{ /*padding: "20px",*/ overflowX: "hidden", width: "100vw" }}>
       {/* {console.log("Rendering Cards:", selectedCards)} */}
       <AppHeader />
       {selectedCards.length > 0 && (
@@ -85,7 +85,7 @@ const Dashboard = () => {
                     boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.1)",
                     backgroundColor: "white",
                     borderBottomWidth: "10px",
-                    marginTop:"12px",
+                    marginTop: "12px",
                     borderBottomColor: borderColors[idx % borderColors.length],
                     //idx is the current index in the map loop,
                     //idx % borderColors.length  calculates which color to pick from the array.
@@ -95,10 +95,7 @@ const Dashboard = () => {
                   <div>
                     {card.details?.map((detail, idx) => (
                       <p key={idx}>
-                        {/* <strong>{detail.label}:</strong>
-                        {detail.value} */}
                         <strong>
-                          {/* {detail.label[i18n.language]} */}
                           {detail.label}
                           {detail.value ? ":" : ""}
                         </strong>
@@ -112,8 +109,7 @@ const Dashboard = () => {
           </Row>
         </div>
       )}
-         <div style={{ overflowX: "auto", width: "100%",whiteSpace: "nowrap", }}>
-
+      <div style={{ overflowX: "auto", width: "100%", whiteSpace: "nowrap" }}>
         <Table
           columns={columns}
           dataSource={dataentry}
@@ -126,7 +122,7 @@ const Dashboard = () => {
           scroll={{ x: "max-content" }}
           // scroll={{x:"true"}}
         />
-        </div>
+      </div>
       <AppFooter />
     </div>
   );

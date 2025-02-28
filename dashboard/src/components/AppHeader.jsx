@@ -33,9 +33,9 @@ const AppHeader = () => {
         {/* Logo */}
         <div className="title-ortho">
           {t('title')}
-          <LangDdown/>
           </div>
         <div className="items-ortho">
+          <LangDdown/>
           {categories?.map((category, idx) => (
             <span key={idx}>{category[i18n.language]}</span>
           ))}
