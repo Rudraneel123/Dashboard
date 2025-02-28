@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import enFlag from "../assets/uk.png";
 import espFlag from "../assets/spain.png";
 import frFlag from "../assets/france.png";
-import portFlag from "../assets/france.png";
+import portFlag from "../assets/portugal.png";
 import gerFlag from "../assets/germany.png";
 
 const LangDdown = () => {
