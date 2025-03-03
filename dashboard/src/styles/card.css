@@ -1,0 +1,16 @@
+.card-container {
+  border: 1px solid rgb(58, 13, 13);
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-bottom-width: 10px;
+  margin-top: 12px;
+  padding: 16px;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    margin: 8px; 
+    padding: 8px; 
+  }
+}

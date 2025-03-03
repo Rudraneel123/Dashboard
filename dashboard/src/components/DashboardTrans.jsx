@@ -4,6 +4,7 @@ import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
 import { useTranslation } from "react-i18next";
 import { useSearchParams } from "react-router-dom";
+import "../styles/card.css";
 
 const DashboardTrans = () => {
   const [dataentry, setDataentry] = useState([]);
@@ -121,7 +122,7 @@ const DashboardTrans = () => {
           <Row
             gutter={[16, 16]}
             justify="center"
-            style={{ backgroundColor: "white" }}
+            style={{ backgroundColor: "white",padding: "0 16px"  }}
           >
             {selectedCards.map((card, idx) => (
               <Col
@@ -130,19 +131,14 @@ const DashboardTrans = () => {
                 sm={12}
                 md={8}
                 lg={6}
-                style={{ backgroundColor: "white" }}
+                style={{ backgroundColor: "white",padding: "0 8px" }}
               >
                 <Card
                   title={card.title}
                   style={{
-                    border: "1px solid rgb(58, 13, 13)",
-                    borderRadius: "8px",
-                    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.1)",
-                    backgroundColor: "white",
-                    borderBottomWidth: "10px",
-                    marginTop: "12px",
                     borderBottomColor: borderColors[idx % borderColors.length],
                   }}
+                  className="card-container"
                 >
                   <div>
                     {card.details.map((obj, index) => (
