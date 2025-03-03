@@ -1,6 +1,29 @@
 {
-  "title": "Ortho Clinical",
-  "dashboard": "Dashboard",
-  "reports": "Reports",
-  "settings": "Settings"
+  "title": "Ortho Clinic",
+  "order_info": "Order Information",
+  "shipping_info": "Shipping Information",
+  "order_total": "Order Total",
+  "order_number": "Order Number",
+  "purchase_order": "Purchase Order",
+  "order_status": "Order Status",
+  "order_type": "Order Type",
+  "company": "Company",
+  "location": "Location",
+  "country": "Country",
+  "order_value": "Order Value",
+  "taxes": "Taxes",
+  "shipping_and_handling": "Shipping & Handling",
+  "order_total_amount": "Total Order Amount",
+  "columns": {
+    "item": "Item",
+    "material_number": "Material Number",
+    "description": "Description",
+    "est_del_date": "Estimated Delivery Date",
+    "order_quantity": "Order Quantity",
+    "UOM": "Unit of Measure",
+    "back_quantity": "Back Quantity",
+    "cancel_quantity": "Cancel Quantity",
+    "ship_quantity": "Ship Quantity",
+    "status": "Status"
+  }
 }

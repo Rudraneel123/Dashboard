@@ -1,8 +1,29 @@
 {
   "title": "Ortho Clínica",
-  "dashboard": "Panel de control",
-  "reports": "Informes",
-  "settings": "Configuraciones",
-  "profile": "Perfil",
-  "logout": "Cerrar sesión"
+  "order_info": "Información del Pedido",
+  "shipping_info": "Información de Envío",
+  "order_total": "Total del Pedido",
+  "order_number": "Número de Pedido",
+  "purchase_order": "Orden de Compra",
+  "order_status": "Estado del Pedido",
+  "order_type": "Tipo de Pedido",
+  "company": "Empresa",
+  "location": "Ubicación",
+  "country": "País",
+  "order_value": "Valor del Pedido",
+  "taxes": "Impuestos",
+  "shipping_and_handling": "Envío y Manejo",
+  "order_total_amount": "Total del Pedido",
+  "columns": {
+    "item": "Artículo",
+    "material_number": "Número de Material",
+    "description": "Descripción",
+    "est_del_date": "Fecha Estimada de Entrega",
+    "order_quantity": "Cantidad de Pedido",
+    "UOM": "Unidad de Medida",
+    "back_quantity": "Cantidad Atrasada",
+    "cancel_quantity": "Cantidad Cancelada",
+    "ship_quantity": "Cantidad Enviada",
+    "status": "Estado"
+  }
 }
