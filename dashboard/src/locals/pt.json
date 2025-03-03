@@ -10,6 +10,7 @@
   "company": "Empresa",
   "location": "Localização",
   "country": "País",
+  "via":"Através-de",
   "order_value": "Valor do Pedido",
   "taxes": "Impostos",
   "shipping_and_handling": "Frete e Manuseio",

@@ -97,6 +97,7 @@ const DashboardTrans = () => {
           { label: t("company"), value: record.shippinginfo.company },
           { label: t("location"), value: record.shippinginfo.location },
           { label: t("country"), value: record.shippinginfo.country },
+          { label: t("via"), value: record.shippinginfo.via },
         ],
       },
       {

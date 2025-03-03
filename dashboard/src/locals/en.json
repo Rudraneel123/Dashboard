@@ -10,6 +10,7 @@
   "company": "Company",
   "location": "Location",
   "country": "Country",
+  "via":"Air",
   "order_value": "Order Value",
   "taxes": "Taxes",
   "shipping_and_handling": "Shipping & Handling",

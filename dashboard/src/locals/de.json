@@ -10,6 +10,7 @@
   "company": "Unternehmen",
   "location": "Standort",
   "country": "Land",
+  "via":"Über",
   "order_value": "Bestellwert",
   "taxes": "Steuern",
   "shipping_and_handling": "Versand und Bearbeitung",

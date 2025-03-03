@@ -19,7 +19,8 @@
       "back_quantity": 0,
       "ship_quantity": 0,
       "cancel_quantity": 0,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
     },
     "ordertotal": {
       "id": 1,
@@ -51,7 +52,9 @@
       "back_quantity": 0,
       "ship_quantity": 0,
       "cancel_quantity": 0,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 2,
@@ -83,7 +86,9 @@
       "back_quantity": 0,
       "ship_quantity": 0,
       "cancel_quantity": 0,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,
@@ -115,7 +120,9 @@
       "back_quantity": 0,
       "ship_quantity": 0,
       "cancel_quantity": 0,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,
@@ -147,7 +154,9 @@
       "back_quantity": 1,
       "ship_quantity": 1,
       "cancel_quantity": 1,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,
@@ -180,7 +189,9 @@
       "back_quantity": 1,
       "ship_quantity": 1,
       "cancel_quantity": 1,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,
@@ -212,7 +223,9 @@
       "back_quantity": 1,
       "ship_quantity": 1,
       "cancel_quantity": 1,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,
@@ -244,7 +257,9 @@
       "back_quantity": 1,
       "ship_quantity": 1,
       "cancel_quantity": 1,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,
@@ -276,7 +291,9 @@
       "back_quantity": 1,
       "ship_quantity": 1,
       "cancel_quantity": 1,
-      "status": "In Process"
+      "status": "In Process",
+      "via":"Air"
+
     },
     "ordertotal": {
       "id": 1,

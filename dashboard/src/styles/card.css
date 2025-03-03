@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
   .card-container {
-    margin: 8px; 
-    padding: 8px; 
+    margin: 16px 8px 8px; /*top left&right bottom*/
+    padding: 8px;
   }
 }
