@@ -116,13 +116,13 @@ const DashboardTrans = () => {
   const borderColors = ["purple", "brown", "orange"];
 
   return (
-    <div style={{ overflowX: "hidden", width: "100vw" }}>
+    <div style={{ overflowX: "clip", width: "100vw" }}>
       <AppHeader />
       {selectedCards.length > 0 && (
         <div style={{ marginBottom: "18px" }}>
           <Row
             gutter={[16, 16]}
-            justify="center"
+            justify="space-between"
             style={{ backgroundColor: "white",padding: "0 16px"  }}
           >
             {selectedCards.map((card, idx) => (
@@ -131,7 +131,7 @@ const DashboardTrans = () => {
                 xs={24}
                 sm={12}
                 md={8}
-                lg={6}
+                lg={8}
                 style={{ backgroundColor: "white",padding: "0 8px" }}
               >
                 <Card

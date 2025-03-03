@@ -16,7 +16,8 @@
 }
 .items-ortho {
   margin-left: auto;
-  display: flex;
+  margin-right: 20px;
+  /* display: flex; */
   gap: 20px;
 }
 
@@ -49,7 +50,7 @@
     }
 
     .items-ortho span {
-      font-size: 6px; /* Increased font size */
+      font-size: 8px; /* Increased font size */
       margin: 5px; /* Added margin */
       display: inline-block; /* Added display inline-block */
     }
