@@ -10,21 +10,19 @@
   "company": "Company",
   "location": "Location",
   "country": "Country",
-  "via":"Air",
+  "via": "Air",
   "order_value": "Order Value",
   "taxes": "Taxes",
   "shipping_and_handling": "Shipping & Handling",
   "order_total_amount": "Total Order Amount",
-  "columns": {
-    "item": "Item",
-    "material_number": "Material Number",
-    "description": "Description",
-    "est_del_date": "Estimated Delivery Date",
-    "order_quantity": "Order Quantity",
-    "UOM": "Unit of Measure",
-    "back_quantity": "Back Quantity",
-    "cancel_quantity": "Cancel Quantity",
-    "ship_quantity": "Ship Quantity",
-    "status": "Status"
-  }
+  "item": "Item",
+  "material_number": "Material Number",
+  "description": "Description",
+  "est_del_date": "Estimated Delivery Date",
+  "order_quantity": "Order Quantity",
+  "UOM": "Unit of Measure",
+  "back_quantity": "Back Quantity",
+  "cancel_quantity": "Cancel Quantity",
+  "ship_quantity": "Ship Quantity",
+  "status": "Status"
 }

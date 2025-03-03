@@ -10,21 +10,19 @@
   "company": "Unternehmen",
   "location": "Standort",
   "country": "Land",
-  "via":"Über",
+  "via": "Über",
   "order_value": "Bestellwert",
   "taxes": "Steuern",
   "shipping_and_handling": "Versand und Bearbeitung",
   "order_total_amount": "Gesamtbetrag der Bestellung",
-  "columns": {
-    "item": "Artikel",
-    "material_number": "Materialnummer",
-    "description": "Beschreibung",
-    "est_del_date": "Voraussichtliches Lieferdatum",
-    "order_quantity": "Bestellmenge",
-    "UOM": "Maßeinheit",
-    "back_quantity": "Rückstandmenge",
-    "cancel_quantity": "Stornierte Menge",
-    "ship_quantity": "Versandmenge",
-    "status": "Status"
-  }
+  "item": "Artikel",
+  "material_number": "Materialnummer",
+  "description": "Beschreibung",
+  "est_del_date": "Voraussichtliches Lieferdatum",
+  "order_quantity": "Bestellmenge",
+  "UOM": "Maßeinheit",
+  "back_quantity": "Rückstandmenge",
+  "cancel_quantity": "Stornierte Menge",
+  "ship_quantity": "Versandmenge",
+  "status": "Status"
 }

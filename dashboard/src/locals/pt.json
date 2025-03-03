@@ -10,21 +10,19 @@
   "company": "Empresa",
   "location": "Localização",
   "country": "País",
-  "via":"Através-de",
+  "via": "Através-de",
   "order_value": "Valor do Pedido",
   "taxes": "Impostos",
   "shipping_and_handling": "Frete e Manuseio",
   "order_total_amount": "Total do Pedido",
-  "columns": {
-    "item": "Item",
-    "material_number": "Número do Material",
-    "description": "Descrição",
-    "est_del_date": "Data Estimada de Entrega",
-    "order_quantity": "Quantidade do Pedido",
-    "UOM": "Unidade de Medida",
-    "back_quantity": "Quantidade em Atraso",
-    "cancel_quantity": "Quantidade Cancelada",
-    "ship_quantity": "Quantidade Enviada",
-    "status": "Status"
-  }
+  "item": "Item",
+  "material_number": "Número do Material",
+  "description": "Descrição",
+  "est_del_date": "Data Estimada de Entrega",
+  "order_quantity": "Quantidade do Pedido",
+  "UOM": "Unidade de Medida",
+  "back_quantity": "Quantidade em Atraso",
+  "cancel_quantity": "Quantidade Cancelada",
+  "ship_quantity": "Quantidade Enviada",
+  "status": "Status"
 }

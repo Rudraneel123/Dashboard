@@ -14,51 +14,51 @@ const DashboardTrans = () => {
   const [searchParams] = useSearchParams();
 
   useEffect(() => {
-    fetch("/config2.json")
+    fetch("/config.json")
       .then((response) => response.json())
       .then((fetchedData) => {
         if (fetchedData && Array.isArray(fetchedData)) {
           const tableColumns = [
-            { title: t("columns.item"), dataIndex: "item", key: "item" },
+            { title: t("item"), dataIndex: "item", key: "item" },
             {
-              title: t("columns.material_number"),
-              dataIndex: ["orderinfo", "material_number"],
+              title: t("material_number"),
+              dataIndex: ["material_number"],
               key: "material_number",
             },
             {
-              title: t("columns.description"),
-              dataIndex: ["orderinfo", "description"],
+              title: t("description"),
+              dataIndex: [ "description"],
               key: "description",
             },
             {
-              title: t("columns.est_del_date"),
-              dataIndex: ["shippinginfo", "est_del_date"],
+              title: t("est_del_date"),
+              dataIndex: [ "est_del_date"],
               key: "est_del_date",
             },
             {
-              title: t("columns.order_quantity"),
-              dataIndex: ["ordertotal", "order_quantity"],
+              title: t("order_quantity"),
+              dataIndex: [ "order_quantity"],
               key: "order_quantity",
             },
-            { title: t("columns.UOM"), dataIndex: ["ordertotal", "UOM"], key: "UOM" },
+            { title: t("UOM"), dataIndex: [ "UOM"], key: "UOM" },
             {
-              title: t("columns.back_quantity"),
-              dataIndex: ["shippinginfo", "back_quantity"],
+              title: t("back_quantity"),
+              dataIndex: [ "back_quantity"],
               key: "back_quantity",
             },
             {
-              title: t("columns.cancel_quantity"),
-              dataIndex: ["shippinginfo", "cancel_quantity"],
+              title: t("cancel_quantity"),
+              dataIndex: [ "cancel_quantity"],
               key: "cancel_quantity",
             },
             {
-              title: t("columns.ship_quantity"),
-              dataIndex: ["shippinginfo", "ship_quantity"],
+              title: t("ship_quantity"),
+              dataIndex: [ "ship_quantity"],
               key: "ship_quantity",
             },
             {
-              title: t("columns.status"),
-              dataIndex: ["shippinginfo", "status"],
+              title: t("status"),
+              dataIndex: [ "status"],
               key: "status",
             },
           ];

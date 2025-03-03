@@ -10,21 +10,19 @@
   "company": "Entreprise",
   "location": "Emplacement",
   "country": "Pays",
-  "via":"Via",
+  "via": "Via",
   "order_value": "Valeur de la Commande",
   "taxes": "Taxes",
   "shipping_and_handling": "Expédition et Manutention",
   "order_total_amount": "Total de la Commande",
-  "columns": {
-    "item": "Article",
-    "material_number": "Numéro de Matériel",
-    "description": "Description",
-    "est_del_date": "Date de Livraison Estimée",
-    "order_quantity": "Quantité Commandée",
-    "UOM": "Unité de Mesure",
-    "back_quantity": "Quantité en Retard",
-    "cancel_quantity": "Quantité Annulée",
-    "ship_quantity": "Quantité Expédiée",
-    "status": "Statut"
-  }
+  "item": "Article",
+  "material_number": "Numéro de Matériel",
+  "description": "Description",
+  "est_del_date": "Date de Livraison Estimée",
+  "order_quantity": "Quantité Commandée",
+  "UOM": "Unité de Mesure",
+  "back_quantity": "Quantité en Retard",
+  "cancel_quantity": "Quantité Annulée",
+  "ship_quantity": "Quantité Expédiée",
+  "status": "Statut"
 }
