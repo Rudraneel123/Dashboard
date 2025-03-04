@@ -11,8 +11,9 @@
 
 @media (max-width: 768px) {
   .card-container {
-    margin: 16px 8px 8px; /*top left&right bottom*/
-    padding: 8px;
+    /* margin: 16px 8px 8px; /*top left&right bottom*/
+    /* padding: 8px;  */
     /* width: 80dvb; */
+    width: auto;
   }
 }
